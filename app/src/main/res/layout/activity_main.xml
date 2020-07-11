@@ -36,6 +36,7 @@
         android:rowCount="2"
         android:padding="15dp">
         <androidx.cardview.widget.CardView
+            android:onClick="goInventoryScreen"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_width="0dp"
@@ -66,6 +67,7 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
+            android:onClick="goMonitoringScreen"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_width="0dp"

@@ -9,13 +9,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Inventory"></activity>
-        <activity android:name=".login.MainActivity" />
-        <activity android:name=".login.RegisterActivity" />
+        <activity android:name=".MonitoringActivity"
+            android:theme="@style/NoActionBar"></activity>
+        <activity
+            android:name=".DetailInventoryActivity"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".Inventory"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".login.MainActivity"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".login.RegisterActivity"
+            android:theme="@style/NoActionBar" />
         <activity android:name=".util.Server" />
         <activity android:name=".util.AppController" />
-        <activity android:name=".login.LoginActivity" />
-        <activity android:name=".login.Splash">
+        <activity
+            android:name=".login.LoginActivity"
+            android:theme="@style/NoActionBarWhite" />
+        <activity
+            android:name=".login.Splash"
+            android:theme="@style/NoActionBarWhite">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
